@@ -1,7 +1,7 @@
 from requests import Session
 import random
 import re
-
+# https://osintcat.ru https://osintcat.ru https://osintcat.ru https://osintcat.ru https://osintcat.ru https://osintcat.ru https://osintcat.ru
 def gmail(email):
     try:
         mail = re.search(r'(.+?)@', email).group(1)
@@ -140,4 +140,5 @@ def gmail(email):
         return False #Taken
     except:
         return None #Error
+
 a = gmail("flux@gmail.com")
